@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&family=Source+Serif+Pro:ital,wght@1,300&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            background-image: url(-min.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top;
+            /* height: 100vh; */
+
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            color: white;
+            margin: auto;
+            width: fit-content;
+            /* background-image: linear-gradient(to right, #9d9570, #a0c6b9); */
+        }
+
+        .barber-service {
+            font-size: 3.6rem;
+            margin: 4rem auto 0;
+            padding-bottom: 1.9rem;
+        }
+
+        .barber-paragraph {
+            font-size: 117%;
+            font-family: 'Open Sans', sans-serif;
+            padding-bottom: 3.2rem;
+        }
+
+
+        .box {
+            height: 317px;
+            width: 407px;
+            background: white;
+            border-radius: 30px;
+        }
+
+        .box-par-1 {
+            display: flex;
+            row-gap: 20px;
+            text-align: center;
+            column-gap: 22px;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-bottom: 1.3rem;
+        }
+
+        .box-par-2 {
+            display: flex;
+            row-gap: 20px;
+            text-align: center;
+            column-gap: 22px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .linear-gradient {
+            color: white;
+            background-image: linear-gradient(to right, #9d9570, #a0c6b9);
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            padding: 1% 19%;
+            line-height: 26px;
+            height: 186px;
+        }
+
+        h1 {
+            line-height: 2em;
+            font-size: 2rem;
+            padding-top: 7%;
+        }
+
+        
+        img {
+    height: 98px;
+    padding-top: 1.5rem;
+}
+.freepik {
+    color: white;
+}
+.img-freepik {
+    column-gap: 11px;
+}
+.freepic {
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+.freepik {
+    color: white;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+footer {
+    background: #333333;
+    display: flex;
+    column-gap: 10px;
+    height: 99px;
+    justify-content: center;
+    align-items: center;
+}
+.temp{
+    color: #a7c0e7;
+}
+.created{
+    color: white;
+}
+
+.temp:hover{
+    text-decoration: none;
+    color: rgb(161 161 161);
+}
+.freepic:hover{
+    color: #ffffffcf;
+}
+
+
+
+.dark-background{
+    background: black;
+}
+    </style>
+</head>
+
+<body>
+    <div id="dark-background"></div>
+    <section>
+        <div class="container">
+            <h2 class="barber-service">Barbershop Services</h2>
+            <p class="barber-paragraph">Sample text. Click to select the text box. Click again or double click to start
+                editing the text.</p>
+        </div>
+
+
+        <div class="container-six-box">
+
+            <div class="box-par-1">
+
+
+                <div id="seaser" class="box">
+                    <div class="linear-gradient">
+
+                        <h1>Hair Cut</h1>
+                        <p>Sample text. Click to select the Text Element.</p>
+                    </div>
+                    <img src="download.png" alt="">
+                </div>
+                <div id="rasear" class="box">
+                    <div class="linear-gradient">
+                        
+                        <h1>Shaving</h1>
+                        <p>Sample text. Click to select the Text Element.</p>
+                    </div>
+                    <img src="download (1).png" alt="">
+                </div>
+                <div id="beard" class="box">
+                    <div class="linear-gradient">
+                        <h1>Beard Trim</h1>
+                        <p>Sample text. Click to select the Text Element.</p>
+                    </div>
+                    <img src="download (2).png" alt="">
+                </div>
+                
+            </div>
+            
+            
+            
+            
+            <div class="box-par-2">
+                
+                <div id="drayer" class="box">
+                    <div class="linear-gradient">
+                        <h1>Kids Haircut</h1>
+                        <p>Sample text. Click to select the Text Element.</p>
+                    </div>
+                    <img src="download (3).png" alt="">
+                </div>
+                <div id="blade" class="box">
+                    <div class="linear-gradient">
+                        <h1>Signature Shave</h1>
+                        <p>Sample text. Click to select the Text Element.</p>
+                    </div>
+                    <img src="download (4).png" alt="">
+                </div>
+                <div id="massage" class="box">
+                    <div class="linear-gradient">
+                        <h1>Face Massage</h1>
+                        <p>Sample text. Click to select the Text Element.</p>
+                    </div>
+                    <img src="download (5).png" alt="">
+                </div>
+                
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+        <div class="freepik">
+            <p class="img-freepik">Image from <span class="freepic">Freepik</span></p>
+        </div>
+    </section>
+    <footer>
+        <a class="temp" href="#">Website Templates </a> 
+        <p class="created">created with </p>
+        <a class="temp" href="#">Website Builder Software.</a>
+    </footer>
+</body>
+
+</html>
